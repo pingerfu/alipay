@@ -102,7 +102,7 @@ public partial class notify_url : System.Web.UI.Page
     public SortedDictionary<string, string> GetRequestPost()
     {
         int i = 0;
-        int j = 0;
+        int j = 0;//testtttt
         SortedDictionary<string, string> sArray = new SortedDictionary<string, string>();
         NameValueCollection coll;
         //Load Form variables into NameValueCollection variable.  ssdas
