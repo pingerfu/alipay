@@ -107,7 +107,7 @@ public partial class notify_url : System.Web.UI.Page
         NameValueCollection coll;
         //Load Form variables into NameValueCollection variable.  ssdas
         coll = Request.Form;
-
+           
         // Get names of all forms into a string array.
         String[] requestItem = coll.AllKeys;
 
